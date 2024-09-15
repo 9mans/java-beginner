@@ -14,6 +14,7 @@ public class AccountMain {
         System.out.println("현재 잔액: " + account.balance);
 
         account.withdraw(300);
+        System.out.println("현재 잔액: " + account.balance);
 
         //잔액확인
         int balance = account.status();
