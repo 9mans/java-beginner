@@ -28,3 +28,7 @@ public class AccessData {
         privateMethod();
     }
 }
+
+class dClass {
+
+}

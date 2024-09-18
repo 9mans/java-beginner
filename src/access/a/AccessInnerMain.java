@@ -15,5 +15,8 @@ public class AccessInnerMain {
 
         accessData.innerAccess();
 
+        dClass dClass = new dClass();
+
     }
 }
+
