@@ -1,5 +1,7 @@
 package oop1;
 
+import construct.MemberConstruct;
+
 public class MusicPlayer {
 
     int volume;
