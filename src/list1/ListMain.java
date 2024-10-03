@@ -37,6 +37,7 @@ public class ListMain {
         // 포함여부 확인 포함이면 true를 반환
         boolean contains = list.contains("A");
 
+
         // 지정된 범위의 리스트를 반환
         List<String> subList = list.subList(0, 2);
     }
