@@ -1,6 +1,7 @@
 package list1;
 
 import java.util.ArrayList;
+import java.util.LinkedList;
 import java.util.List;
 
 public class ListMain {
@@ -23,10 +24,10 @@ public class ListMain {
         list.remove(0);
 
         // 특정 인덱스에 있는 요소 가져오기
-        String getList = list.get(0);
+//        String getList = list.get(0);
 
         // 지정된 인덱스에 값을 변경
-        list.set(0, "C");
+//        list.set(0, "C");
 
         // 리스트에 저장된 요소의 개수를 반환
         int size = list.size();
@@ -39,6 +40,22 @@ public class ListMain {
 
 
         // 지정된 범위의 리스트를 반환
-        List<String> subList = list.subList(0, 2);
+//        List<String> subList = list.subList(0, 2);
+
+
+        LinkedList<Integer> linkedList = new LinkedList<>();
+
+        linkedList.add(10);
+        linkedList.add(20);
+        linkedList.add(30);
+
+        System.out.println(linkedList.get(0));
+        System.out.println(linkedList.get(1));
+        System.out.println(linkedList.get(2));
+        System.out.println(linkedList.size());
+
+        linkedList.remove(1);
+        System.out.println(linkedList.size());
+
     }
 }

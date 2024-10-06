@@ -1,5 +1,6 @@
 package queue;
 
+import java.sql.PreparedStatement;
 import java.util.LinkedList;
 import java.util.Queue;
 
@@ -23,6 +24,7 @@ public class QueueMain {
 
         // 비어있는지 확인
         System.out.println("is Empty: " + queue.isEmpty());
+
 
     }
 }
